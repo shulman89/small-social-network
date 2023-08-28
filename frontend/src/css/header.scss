@@ -1,0 +1,35 @@
+.header {
+  .header-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #645C5C;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+    .header-navbar-left {
+      .header-navbar-left-button {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 10px;
+      }
+    }
+
+    .header-navbar-right {
+      .header-navbar-right-block {
+        display: flex;
+        .header-navbar-right-button {
+          color: white;
+          text-decoration: none;
+          font-size: 20px;
+          margin: 0 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
